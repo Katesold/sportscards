@@ -1,0 +1,62 @@
+body {
+  font-family: "Arial", "Helvetica", sans-serif; }
+
+.playerStatsCont {
+  background-color: #E90052;
+  color: #FFF;
+  padding: 0 20px 30px;
+  height: 100%; }
+  .playerStatsCont h2 {
+    padding-top: 30px;
+    font-weight: normal; }
+  .playerStatsCont h3 {
+    font-weight: normal; }
+
+.playerStats h3 {
+  color: black;
+  margin: 0; }
+
+.playerStats h4 {
+  color: black;
+  margin: 0; }
+
+.container {
+  max-width: 350px;
+  box-sizing: border-box;
+  border: 1px #cecece solid;
+  margin: 80px 30px; }
+
+.playerSelect {
+  padding: 5px;
+  width: 84%;
+  margin: 20px 30px;
+  background: #EAEAEA; }
+
+.playerImg {
+  position: relative;
+  top: 25px; }
+
+.playerClub {
+  border-radius: 27%;
+  position: relative;
+  top: 63px;
+  z-index: 1;
+  left: 31px;
+  height: 80px; }
+
+.playerClubBg {
+  position: absolute;
+  top: 390px;
+  left: 266px;
+  height: 97px; }
+
+.playerData {
+  background: #e1e1e1; }
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  background: #eaeaea;
+  padding: 8px 10px;
+  margin: 3px;
+  box-shadow: 0px -3px 8px #5c5c5c99; }
